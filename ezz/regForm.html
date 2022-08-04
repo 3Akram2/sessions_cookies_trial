@@ -1,0 +1,100 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet"  type="text/css" href="styles/styles.css">
+</head>
+<body >
+    <header>
+
+        <nav>
+            <img src="./ITI_logo.png" alt="" width="150px" height="90px">
+        <ul>
+            <a href="./index.html"><li>Home</li></a>
+            <a href="page.html"><li>Road Map</li></a>
+            <a href="#"><li>Registration Form</li></a>
+            <a href="https://www.iti.gov.eg/iti/home"><li>Contact</li></a>
+            
+        </ul>
+        </nav>
+        </header>
+        <div class="content">
+        <h1>Register - Create Account</h1>
+        <div class="bob">
+            
+            <h3>Fields marked with <span style="color:red;">*</span> are compulsory fields </h3>
+        </div>
+        <form action="" method="get">
+            <table >
+                <tr>
+                    <td ><label for="Name"><span style="color:red;">*</span>Your Name</label></td>
+                    <td><input type="textbox" name="Name" required ></td>
+                </tr>
+                <tr>
+                    <td ><label for="Email"><span style="color:red;">*</span>Email ID</label></td>
+                    <td><input type="email" name="Email" required></td>
+                </tr>
+                <tr>
+                    <td ><label for="altMail">Alternate E-Mail ID</label></td>
+                    <td><input type="email" name="altMail"  ></td>
+                </tr>
+                <tr>
+                    <td><label for="Phone">Your number</label></td>
+                    <td>country code - city code  - phone number <br></code><input type="tel" size="5"> - <input type="tel" size="5"> - <input type="tel" size="10"></td>
+                </tr>
+                <tr>
+                    <td><label for="no">Phone number</label></td>
+                    <td><input type="tel"></td>
+                </tr>
+                <tr>
+                    <td><label for="postal"><span style="color:red;">*</span>Your Postal Address</label></td>
+                    <td><textarea name="postal" id="" cols="25" rows="8"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="country"><span style="color:red;">*</span>country</label></td>
+                    <td><select name="counrty" >
+                        <option value="i" disabled selected>----Select One----</option>
+                        <option value="egypt">Egypt</option>
+                        <option value="sudan">Sudan</option>
+                        <option value="morocco">Morocco</option>
+                      </select></td>
+                </tr>
+                <tr>
+                    <td><label for="pass"><span style="color:red;">*</span>Password</label></td>
+                    <td><input type="password"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pass"><span style="color:red;">*</span>Re-Enter Password</label>
+                    </td>
+                    <td>
+                        <input type="password">
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="checkbox"> I accept the <a href="#">Terms of Use</a></td>
+                </tr>
+
+            </table>
+            <input type="submit" value="Continue >>">
+            <input type="reset">
+           
+            
+
+        </form>
+
+
+
+
+
+      </div>
+
+        <footer>
+            <hr>
+        <p >Copyright 2021 by 3Akram &copy;.All Rights Reserved</p>
+        </footer>
+</body>
+</html>
